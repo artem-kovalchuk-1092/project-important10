@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: "Sarabun", sans-serif;
+    color: #0d0b0a;
+    background-color: #f2fafa;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+button {
+    cursor: pointer;
+}
+.section {
+    padding: 64px 0;
+}
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 1336px) {
+    .section {
+        padding: 112px 0;
+    }    
+}

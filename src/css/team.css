@@ -1,0 +1,12 @@
+/* region team Mobile  */
+/* endregion teamMobile  */
+
+/* region team Tablet  */
+@media screen and (min-width: 768px) {
+}
+/* endregion team Tablet  */
+
+/* region team Desktop  */
+@media screen and (min-width: 1366px) {
+}
+/* endregion team Desktop  */
